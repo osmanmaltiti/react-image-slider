@@ -1,0 +1,41 @@
+.main-navbar{
+  display: flex; flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(31, 30, 30);
+  align-items: center; 
+  width: 100%; height: 10%;
+  h1{
+    font-family: Arial, Helvetica, sans-serif; color: white; margin-left: 1rem;
+  }
+  .links{
+    display: flex; flex-direction: row;
+    gap: 2rem; margin-right: 1rem;
+    a{
+      text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+      color: white;
+      &:last-of-type{
+        color: red;
+      }
+    }
+  }
+}
+@media (max-width: 500px){
+  .main-navbar{
+    width: 100%; 
+    display: flex; flex-direction: column;
+    padding-bottom: 5px;
+    .links{
+      opacity: 0;
+      a{
+        opacity: 0; font-size: 18px; 
+      }
+    }
+    &:hover {
+      height: 15%;
+      .links{
+        opacity: 100%;
+        a{ opacity: 100%;}
+      }
+    }
+  }
+}

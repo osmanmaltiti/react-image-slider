@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.main-app{
+  height: 100%; width: 100%; position: absolute;
+  display: flex; flex-direction: column;
+  align-items: center; 
+}
+@media (max-width: 500px){
+  .main-app{
+    height: 100%; width: 100%;
+    overflow: hidden;
+  }
+}

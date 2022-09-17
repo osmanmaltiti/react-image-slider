@@ -1,19 +1,25 @@
-body{
+body {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-.btn{
+.btn {
   background-color: rgba(0, 0, 0, 0.247) !important;
 }
-.btn:hover{
+.btn:hover {
   background-color: rgba(0, 0, 0, 0.822) !important;
 }
-.active{
+.active {
   opacity: 1;
-  transition: .25s linear;
+  transition: 0.25s linear;
 }
-.inactive{
+.inactive {
   opacity: 0;
-  transition: .25s linear;
+  transition: 0.25s linear;
+}
+
+.map-container {
+  width: 100vw;
+  height: 100vh;
 }

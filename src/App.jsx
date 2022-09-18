@@ -1,8 +1,8 @@
 import './App.css';
-import Scheduler from './components/Scheduler';
+import CalenderComponent from './components/calender.component/calender.component';
 
 function App() {
-  return <Scheduler />;
+  return <CalenderComponent />;
 }
 
 export default App;
